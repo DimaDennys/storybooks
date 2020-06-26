@@ -16,4 +16,10 @@ router.get('/dashboard', (req, res) => {
     res.render('dashboard')
 })
 
+// @ logout user
+// @route /auth/logout
+router.get('/logout', (req, res) => {
+    req.logout()
+    res.redirect('/')
+})
 module.exports = router
