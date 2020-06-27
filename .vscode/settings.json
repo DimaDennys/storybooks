@@ -1,5 +1,9 @@
 {
     "cSpell.words": [
-        "exphbs"
+        "exphbs",
+        "sidenav"
+    ],
+    "cSpell.ignoreWords": [
+        "crossorigin"
     ]
 }
